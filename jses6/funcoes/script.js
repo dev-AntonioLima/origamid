@@ -75,3 +75,71 @@ function dados() {
 }
 
 console.log(dados());
+
+
+// Exercicio
+
+function verificaTruthy(){
+    var estudando = true;
+    var valor;
+    var vazio;
+
+    if(!!estudando || !!valor){
+        console.log('Verdadeiro: ', estudando);
+        console.log('Falso', !!valor, !!vazio);
+    } else {
+        console.log('Falsos');
+    }
+}
+
+verificaTruthy();
+
+
+function perimetroQuadrado(lado){
+  var resultado = lado **2;
+  console.log(resultado);
+}
+
+perimetroQuadrado(4);
+
+function nomeCompleto(nome, sobrenome){
+    return nome + ' ' + sobrenome;
+}
+
+
+console.log(nomeCompleto('Antonio', 'Lima'));
+
+function parImpar(numero){
+    if(numero % 2 == 0) {
+        console.log('Par');
+    } else {
+        console.log('Impar');
+    }
+}
+
+parImpar(8);
+
+
+function tipoDado(dado){
+    dado = 2;
+  console.log(typeof(dado));
+}
+
+tipoDado();
+
+addEventListener('scroll', function(){
+    console.log('Antonio Lima');
+});
+
+var totalPaises = 193;
+function precisoVisitar(paisesVisitados) {
+    
+    return `Ainda faltam ${paisesVisitados - totalPaises} paises para visitar`;
+}
+
+function jaVisitei(paisesVisitados) {
+    return `Ja visitei ${paisesVisitados} do total de ${totalPaises} paises`
+}
+
+precisoVisitar(20);
+jaVisitei(20);
