@@ -1,12 +1,24 @@
-span{
-    display: inline-block;
-    background: #ddd;
+body{
+    font-family: Arial;
 }
 
-span{
-    padding: 30px;
-    padding: 20px 40px;
-    padding: 40px 100px 200px 10px;
-    border: 10px solid black;
-   border-width: 30px 60px;
+h1{
+    text-align: center;
+}
+
+.item{
+    border-color: #f7f7f7;
+    border: 1px solic #e7e7e7;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.comprar{
+    background: #a8f;
+    color: #103;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+
 }
