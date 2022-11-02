@@ -4,9 +4,28 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.titulo{
+    grid-column: 2;
+    text-align: right;
+}
+
+
+.preco{
+    place-self: start end;
+}
+
+.comprar { 
+    align-self: start;
+    text-align: center;
+}
+
+.descricao{
+    text-align: right;
+}
+/* 
 .foto{
     grid-column: 1 / 3;
-}
+} */
 
 /* Estilos Gerais */
 
@@ -42,7 +61,6 @@ img{
     text-decoration: none;
     border-radius: 4px;
     font-size: 20px;
-    grid-column: 1 / 3;
 }
 
 .preco{
