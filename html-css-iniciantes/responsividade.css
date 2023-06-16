@@ -4,5 +4,13 @@
         display: flex;
         flex-direction: column;
       }
+
+      .conteudo {
+        grid-template-columns: 1fr;
+      }
+
+      .conteudo img {
+        grid-row: 1;
+    }
 }
 
