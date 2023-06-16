@@ -63,7 +63,7 @@ body {
     grid-template-columns: 1fr 1fr;
     max-width: 1000px;
   }
-  
+
   .introducao {
     background: #fff;
     padding: 40px;
@@ -73,6 +73,10 @@ body {
     gap: 20px;
     align-content: center;
     justify-items: end;
+  }
+
+  .introducao h1{
+    font-size: 2rem;
   }
   
   .detalhe {
