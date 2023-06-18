@@ -94,6 +94,11 @@ body {
     top: 30px;
     right: -30px;
   }
+
+  .introducao-cover img {
+    object-fit: cover;
+    height: 100%;
+  }
   
   .botao {
     background: #e21;
@@ -115,6 +120,7 @@ body {
     text-align: right;
     padding: 40px;
     align-self: center;
+    /* word-break: break-all; */
   }
   
   .vantagens {
