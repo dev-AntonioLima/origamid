@@ -15,3 +15,11 @@ ul {
 img {
     display: block;
 }
+
+.subtitulo{
+    font-size: 8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all;
+    min-width: 4ch;
+}
