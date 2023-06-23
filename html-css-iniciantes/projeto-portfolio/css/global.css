@@ -4,6 +4,10 @@ body {
     color: #141414;
 }
 
+.container {
+    align-items: center;
+}
+
 
 ul {
     margin: 0px;
