@@ -8,7 +8,6 @@ body {
     align-items: center;
 }
 
-
 ul {
     margin: 0px;
     padding: 0px;
@@ -18,6 +17,11 @@ ul {
 
 img {
     display: block;
+}
+
+.titulo-section {
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .subtitulo{
