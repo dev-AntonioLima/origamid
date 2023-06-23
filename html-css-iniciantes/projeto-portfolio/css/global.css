@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    font-family: 'Fira Sas' , Arial, sans-serif;
+    font-family: 'Fira Sas', Arial, sans-serif;
     color: #141414;
 }
 
@@ -24,7 +24,7 @@ img {
     text-align: center;
 }
 
-.subtitulo{
+.subtitulo {
     font-size: 8rem;
     line-height: 1;
     text-transform: uppercase;
