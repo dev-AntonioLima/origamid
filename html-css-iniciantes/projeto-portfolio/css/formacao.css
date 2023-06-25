@@ -1,3 +1,88 @@
+.formacao-container {
+    max-width: 1200px;
+    padding: 40px 20px;
+    display: grid;
+    align-items: center;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+}
+
 .formacao {
-    
+    background: #141414;
+    color: #fff;
+}
+
+.formacao-texto {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    max-width: 1ch;
+    margin-bottom: 60px;
+    color: #525252;
+}
+
+.curso-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.curso {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: #000000;
+    padding: 20px;
+    border-radius: .875rem;
+}
+
+.curso-tipo {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #a3a3a3;
+    margin-bottom: 10px;
+}
+
+.curso-area {
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    position: relatives;
+}
+
+.curso-area::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 20px;
+    background: linear-gradient(#b6f829, #67dd0a);
+    margin: 0 -10px;
+    position: absolute;
+    gap: 10px 20px;
+}
+
+.curso-instituicao {
+    font-size: 1.125rem;
+    color: #a3a3a3;
+
+}
+
+.formacao-extra h3{
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #8f8f8f;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.formacao-extra h3::before {
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url(../img/cursos.svg);
+    position: absolute;
+    left: -36px;
+    top: -4px;
 }
